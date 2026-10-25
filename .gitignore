@@ -1,0 +1,11 @@
+# Arquivos que o git deve ignorar (criado pelo Faísca)
+node_modules/
+.agent_backups/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+__pycache__/
+.venv/
+dist/
