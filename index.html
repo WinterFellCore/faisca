@@ -61,7 +61,7 @@
       <div class="brilho" aria-hidden="true"></div>
       <div class="wrap hero-in">
         <div class="hero-texto revela">
-          <a class="selo" href="#novidades"><span class="ponto" aria-hidden="true"></span> Novo: versão 1.1.1 · veja o que mudou</a>
+          <a class="selo" href="#novidades"><span class="ponto" aria-hidden="true"></span> Novo: versão 1.1.2 · Liberdade total e mais segurança</a>
           <h1>Programe com uma <em>faísca</em> de ajuda.</h1>
           <p class="lead">
             A Faísca é um editor de código para quem está aprendendo. O Claudinho, seu agente de IA,
@@ -153,6 +153,11 @@
             <p>Progresso no ícone da barra de tarefas, notificação quando a IA termina ou precisa de você, zoom com Ctrl + rodinha e ícone na bandeja.</p>
           </article>
           <article class="cartao revela">
+            <div class="icone" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+            <h3>Segura por padrão</h3>
+            <p>Atualizações com assinatura digital, chaves de API cifradas pelo Windows e um agente que não toca em senhas nem credenciais.</p>
+          </article>
+          <article class="cartao revela">
             <div class="icone" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 21h8"/></svg></div>
             <h3>Preview ao lado</h3>
             <p>Veja a página atualizar enquanto digita. Clique num elemento do preview e a Faísca leva você direto para a linha certa do código.</p>
@@ -201,6 +206,7 @@
           <ul class="lista-check">
             <li><b>Transparente.</b> Você vê cada arquivo lido, cada edição e cada comando.</li>
             <li><b>Sob controle.</b> Dentro do projeto ele trabalha direto, e tudo dá para desfazer. Fora da pasta, git push, publicar ou arquivos com senha, ele pergunta antes.</li>
+            <li><b>Ou com Liberdade total.</b> Quando você quiser, ligue o modo ⚡ e ele faz tudo sozinho naquela conversa, mostrando cada ação no chat.</li>
             <li><b>Feito para aprender.</b> Pergunte o porquê de uma linha, peça para comentar o código ou para só apontar o erro sem corrigir.</li>
             <li><b>Lê documentos e imagens.</b> Anexe PDF, Word ou planilhas. Com um modelo de visão, mande um print e peça um layout parecido.</li>
             <li><b>Pesquisa e confere.</b> Busca na internet quando precisa e tira um print da página para ver se ficou como você pediu.</li>
@@ -288,6 +294,21 @@
         </header>
         <div class="faq log revela">
           <details open>
+            <summary>1.1.2 · novembro de 2026</summary>
+            <h4>Liberdade total</h4>
+            <ul>
+              <li>Botão <b>⚡ Liberdade total</b> no chat: nesta conversa, o Claudinho faz tudo sem pedir permissão, e cada ação aprovada sozinha aparece no chat.</li>
+              <li>Ligar pede confirmação, e o modo desliga ao trocar de conversa ou reabrir a IDE. Comandos que estragam o Windows e a leitura de senhas e chaves continuam bloqueados.</li>
+            </ul>
+            <h4>Segurança</h4>
+            <ul>
+              <li><b>Atualizações verificadas</b>: cada instalador e o pacote de voz vêm com assinatura digital (Ed25519) e SHA-256. Arquivo adulterado ou incompleto é recusado antes de rodar.</li>
+              <li><b>Chaves de API cifradas</b> com o DPAPI do Windows e ocultadas nos logs.</li>
+              <li><b>O agente não lê</b> pastas de credenciais (SSH, nuvem, navegadores, Windows) nem os dados internos da Faísca.</li>
+              <li><b>Prévia no celular</b> só na rede local, com sessão por aparelho, limite de tentativas e desligamento automático.</li>
+            </ul>
+          </details>
+          <details>
             <summary>1.1.1 · novembro de 2026</summary>
             <ul>
               <li><b>Instalador bem menor</b>: cerca de 50 MB.</li>
@@ -365,7 +386,7 @@
           </details>
           <details>
             <summary>A IA não vai bagunçar meus arquivos?</summary>
-            <p>Antes de cada mudança, a Faísca guarda um ponto de restauração, e o botão Desfazer volta tudo. O que sai da pasta do projeto, publica na internet ou mexe em senhas sempre pede a sua aprovação. Se preferir, nas configurações dá para pedir aprovação para todo comando.</p>
+            <p>Antes de cada mudança, a Faísca guarda um ponto de restauração, e o botão Desfazer volta tudo. O que sai da pasta do projeto ou publica na internet pede a sua aprovação, e senhas e chaves o agente nunca lê. Se preferir, nas configurações dá para pedir aprovação para todo comando. Se quiser o contrário, a Liberdade total deixa o Claudinho agir sozinho numa conversa, mostrando cada ação.</p>
           </details>
           <details>
             <summary>Quais linguagens ela suporta?</summary>
@@ -399,7 +420,7 @@
             Baixar para Windows
           </a>
         </div>
-        <p class="miudo">Versão 1.1.1 · cerca de 50 MB · Windows 10 ou 11 · 64 bits · <a href="https://github.com/WinterFellCore/faisca-ide/releases">todas as versões</a></p>
+        <p class="miudo">Versão 1.1.2 · cerca de 50 MB · Windows 10 ou 11 · 64 bits · <a href="https://github.com/WinterFellCore/faisca-ide/releases">todas as versões</a></p>
       </div>
     </section>
   </main>
