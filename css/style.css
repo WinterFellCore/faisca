@@ -273,6 +273,15 @@ p { margin: 0; }
 .faq details[open] summary::after { transform: rotate(45deg); }
 .faq details p { padding: 0 20px 18px; color: var(--texto-2); }
 
+/* Novidades (histórico de versões) */
+a.selo { text-decoration: none; }
+a.selo:hover { color: var(--texto); }
+.log details h4 { margin: 4px 20px 6px; font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); }
+.log details ul { margin: 0 0 14px; padding: 0 20px 0 40px; color: var(--texto-2); display: grid; gap: 6px; }
+.log details ul:last-child { padding-bottom: 6px; }
+.log details b { color: var(--texto); font-weight: 600; }
+.cta .miudo a { color: inherit; }
+
 .cta { padding: 110px 0; position: relative; overflow: hidden; text-align: center; }
 .cta::before { content: ""; position: absolute; inset: 0; background: radial-gradient(45% 70% at 50% 100%, rgba(217, 119, 87, .25), transparent 70%); pointer-events: none; }
 .cta-in { position: relative; }

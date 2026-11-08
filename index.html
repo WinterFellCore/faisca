@@ -39,6 +39,7 @@
         <a href="#recursos">Recursos</a>
         <a href="#claudinho">Claudinho</a>
         <a href="#modos">Local ou nuvem</a>
+        <a href="#novidades">Novidades</a>
         <a href="#perguntas">Perguntas</a>
       </nav>
       <div class="topo-acoes">
@@ -60,7 +61,7 @@
       <div class="brilho" aria-hidden="true"></div>
       <div class="wrap hero-in">
         <div class="hero-texto revela">
-          <span class="selo"><span class="ponto" aria-hidden="true"></span> Feito para Windows · em português</span>
+          <a class="selo" href="#novidades"><span class="ponto" aria-hidden="true"></span> Novo: versão 1.1.0 · veja o que mudou</a>
           <h1>Programe com uma <em>faísca</em> de ajuda.</h1>
           <p class="lead">
             A Faísca é um editor de código para quem está aprendendo. O Claudinho, seu agente de IA,
@@ -75,8 +76,8 @@
             <a class="btn btn-sec" href="#recursos">Ver recursos</a>
           </div>
           <ul class="hero-fatos">
-            <li>Roda com IA local ou na nuvem</li>
-            <li>Você aprova cada mudança</li>
+            <li>Feito para Windows, em português</li>
+            <li>IA local ou na nuvem</li>
             <li>Desfazer a qualquer momento</li>
           </ul>
         </div>
@@ -134,7 +135,22 @@
           <article class="cartao revela destaque">
             <div class="icone" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/></svg></div>
             <h3>Agente que mexe no código</h3>
-            <p>O Claudinho lê, cria e edita arquivos do projeto e roda comandos no terminal. Escritas e comandos pedem a sua aprovação.</p>
+            <p>O Claudinho lê, cria e edita arquivos, roda testes e comandos no terminal, pesquisa na internet e olha a página pronta para conferir o visual.</p>
+          </article>
+          <article class="cartao revela">
+            <div class="icone" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></svg></div>
+            <h3>Abre de tudo</h3>
+            <p>Vídeo, áudio, PDF, planilhas, Word e PowerPoint abrem direto na aba. Textos de até 20 MB vão para o editor.</p>
+          </article>
+          <article class="cartao revela">
+            <div class="icone" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 20h16"/><path d="M6 20v-6M10 20V9M14 20v-9M18 20V5"/></svg></div>
+            <h3>Benchmark de modelos</h3>
+            <p>Teste os modelos da nuvem com o próprio Claudinho em tarefas reais e veja qual acerta mais e responde mais rápido.</p>
+          </article>
+          <article class="cartao revela">
+            <div class="icone" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M7 21h10M12 17v4M7 9h4M7 12h7"/></svg></div>
+            <h3>Integrada ao Windows</h3>
+            <p>Progresso no ícone da barra de tarefas, notificação quando a IA termina ou precisa de você, zoom com Ctrl + rodinha e ícone na bandeja.</p>
           </article>
           <article class="cartao revela">
             <div class="icone" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 21h8"/></svg></div>
@@ -184,9 +200,10 @@
           <p>Peça em português, do seu jeito. O Claudinho planeja, mostra cada ferramenta que usa e para antes de escrever qualquer coisa no seu projeto.</p>
           <ul class="lista-check">
             <li><b>Transparente.</b> Você vê cada arquivo lido, cada edição e cada comando.</li>
-            <li><b>Sob controle.</b> Aprove ou recuse cada escrita. Comandos fora da pasta do projeto são bloqueados.</li>
+            <li><b>Sob controle.</b> Dentro do projeto ele trabalha direto, e tudo dá para desfazer. Fora da pasta, git push, publicar ou arquivos com senha, ele pergunta antes.</li>
             <li><b>Feito para aprender.</b> Pergunte o porquê de uma linha, peça para comentar o código ou para só apontar o erro sem corrigir.</li>
-            <li><b>Aceita imagens.</b> Com um modelo de visão, mande um print e peça um layout parecido.</li>
+            <li><b>Lê documentos e imagens.</b> Anexe PDF, Word ou planilhas. Com um modelo de visão, mande um print e peça um layout parecido.</li>
+            <li><b>Pesquisa e confere.</b> Busca na internet quando precisa e tira um print da página para ver se ficou como você pediu.</li>
           </ul>
         </div>
 
@@ -250,10 +267,10 @@
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a5 5 0 0 1-.5-10A6 6 0 0 1 18 9a4.5 4.5 0 0 1-.5 9z"/></svg>
               Na nuvem
             </h3>
-            <p>Conecta a modelos grandes pela API da NVIDIA, como Nemotron e GLM. Basta colocar a sua chave.</p>
+            <p>Conecta a modelos grandes pela NVIDIA, Groq e Qronos, como MiniMax, Nemotron, GPT-OSS e Claude Haiku. Basta colocar a sua chave.</p>
             <ul>
               <li>Modelos maiores, sem pesar no PC</li>
-              <li>Troque de modelo pelo seletor</li>
+              <li>Se um modelo travar, a resposta continua com outro</li>
               <li>A chave fica salva só na sua máquina</li>
             </ul>
           </article>
@@ -261,8 +278,74 @@
       </div>
     </section>
 
+    <!-- NOVIDADES -->
+    <section class="secao" id="novidades">
+      <div class="wrap estreito">
+        <header class="secao-topo revela">
+          <span class="rotulo">Novidades</span>
+          <h2>O que mudou em cada versão</h2>
+          <p>A Faísca avisa na barra de baixo quando sai uma versão nova e instala com um clique.</p>
+        </header>
+        <div class="faq log revela">
+          <details open>
+            <summary>1.1.0 · novembro de 2026</summary>
+            <h4>Claudinho</h4>
+            <ul>
+              <li><b>Pesquisa na internet</b> e lê páginas sem pedir aprovação.</li>
+              <li><b>Lê documentos</b>: PDF, Word, Excel, PowerPoint e CSV.</li>
+              <li><b>Olha a página</b>: tira um print do site e confere alinhamento, contraste e textos cortados.</li>
+              <li><b>Gera imagens</b> com o FLUX.2 da NVIDIA.</li>
+              <li><b>Modo Computador</b>: abre apps e sites, organiza arquivos e mexe em janelas, sempre pedindo permissão.</li>
+              <li><b>Comandos dentro do projeto rodam direto</b>; fora da pasta, ele pergunta. Apagar arquivo também tem desfazer.</li>
+              <li><b>Troca automática de modelo</b> quando o da nuvem bate o limite ou fica 2 minutos sem responder.</li>
+            </ul>
+            <h4>Modelos</h4>
+            <ul>
+              <li><b>Groq</b> (GPT-OSS 120B e 20B) e <b>Qronos</b> (Claude Haiku 5.5, plano grátis).</li>
+              <li><b>Benchmark</b>: testa os modelos com o Claudinho em 5 tarefas e mostra o ranking.</li>
+              <li><b>Uso das IAs hoje</b>: pedidos, tokens e limites por provedor.</li>
+            </ul>
+            <h4>Chat e editor</h4>
+            <ul>
+              <li><b>Chat com visual novo</b>, rolagem que acompanha a resposta, anexos, voz offline e exportar para Markdown.</li>
+              <li><b>Vídeo, áudio, PDF, planilhas, Word e PowerPoint</b> abrem na aba; textos de até 20 MB no editor.</li>
+              <li><b>Prévia no celular</b> pelo QR code.</li>
+            </ul>
+            <h4>Windows</h4>
+            <ul>
+              <li><b>Zoom com Ctrl + rodinha</b>, lembrado ao abrir de novo.</li>
+              <li><b>Notificação do Windows</b> com um trecho da resposta e aviso quando o Claudinho espera sua permissão.</li>
+              <li><b>Progresso no ícone</b> da barra de tarefas, botões Parar e Nova conversa na miniatura e ícone na bandeja.</li>
+              <li><b>Abre no último projeto</b>, com som opcional ao terminar.</li>
+            </ul>
+          </details>
+          <details>
+            <summary>1.0.2 · outubro de 2026</summary>
+            <ul>
+              <li><b>Barra de atividades</b> na lateral, como no VS Code: Arquivos, Busca, Git e Estilo.</li>
+              <li><b>Tour de boas-vindas</b> de 1 minuto na primeira abertura.</li>
+            </ul>
+          </details>
+          <details>
+            <summary>1.0.1 · outubro de 2026</summary>
+            <ul>
+              <li><b>Tela inicial nova</b> com projetos recentes e miniatura do site.</li>
+              <li><b>Painel Estilo</b>: paletas de cores, Google Fonts e imagens grátis do Openverse.</li>
+              <li><b>Temas</b> escuro, claro, preto e alto contraste, com 6 cores de destaque.</li>
+              <li><b>Arrastar arquivos do Windows</b> para o explorador ou o editor.</li>
+              <li><b>Formulários que enviam de verdade</b> com o Formspree e <b>aviso de atualização</b>.</li>
+            </ul>
+          </details>
+          <details>
+            <summary>1.0.0 · outubro de 2026</summary>
+            <p>Primeira versão pública da Faísca.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
     <!-- PERGUNTAS -->
-    <section class="secao" id="perguntas">
+    <section class="secao alt" id="perguntas">
       <div class="wrap estreito">
         <header class="secao-topo revela">
           <span class="rotulo">Perguntas</span>
@@ -275,7 +358,7 @@
           </details>
           <details>
             <summary>A IA não vai bagunçar meus arquivos?</summary>
-            <p>Toda escrita e todo comando pedem aprovação, e cada mudança gera um ponto de restauração. Se algo não ficar bom, é só desfazer.</p>
+            <p>Antes de cada mudança, a Faísca guarda um ponto de restauração, e o botão Desfazer volta tudo. O que sai da pasta do projeto, publica na internet ou mexe em senhas sempre pede a sua aprovação. Se preferir, nas configurações dá para pedir aprovação para todo comando.</p>
           </details>
           <details>
             <summary>Quais linguagens ela suporta?</summary>
@@ -305,7 +388,7 @@
             Baixar para Windows
           </a>
         </div>
-        <p class="miudo">Windows 10 ou 11 · 64 bits</p>
+        <p class="miudo">Versão 1.1.0 · Windows 10 ou 11 · 64 bits · <a href="https://github.com/WinterFellCore/faisca-ide/releases">todas as versões</a></p>
       </div>
     </section>
   </main>
