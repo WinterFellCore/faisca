@@ -8,7 +8,7 @@
   document.getElementById('tema').addEventListener('click', () => {
     const novo = root.dataset.theme === 'light' ? 'dark' : 'light';
     root.dataset.theme = novo;
-    try { localStorage.setItem('faisca-tema', novo); } catch { /* modo privado */ }
+    try { localStorage.setItem('argos-tema', novo); } catch { /* modo privado */ }
   });
 
   // Menu do celular
