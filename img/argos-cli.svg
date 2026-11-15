@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Argos CLI</title>
+  <path fill="#16181D" stroke="#373940" stroke-width="1.4" d="M15 1H49Q63 1 63 15V49Q63 63 49 63H15Q1 63 1 49V15Q1 1 15 1Z"/>
+  <path fill="none" stroke="#FA525A" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" d="M27 15L22 8 M37 15L42 8 M18 29H9 M18 38L9 42 M21 47L14 54 M46 29H55 M46 38L55 42 M43 47L50 54"/>
+  <path fill="#FA525A" d="M21 20C21 14 26 11 32 11S43 14 43 20Z M32 23C21 23 16 29 16 38C16 49 23 56 32 56S48 49 48 38C48 29 43 23 32 23Z"/>
+  <path fill="none" stroke="#16181D" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter" d="M23.5 33L29.5 38.5L23.5 44"/>
+  <path fill="#FFEEE8" d="M32.5 42H41V46H32.5Z"/>
+</svg>
