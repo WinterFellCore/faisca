@@ -1,4 +1,4 @@
-// Site da Faísca: tema, menu do celular, animações de entrada e o "Claudinho digitando".
+// Site do Argos: tema, menu do celular, animações de entrada e o "Argos digitando".
 (() => {
   const root = document.documentElement;
   root.classList.add('js');
@@ -41,7 +41,7 @@
     alvos.forEach(el => el.classList.add('visivel'));
   }
 
-  // Resposta do Claudinho sendo digitada na janela ilustrativa
+  // Resposta do Argos sendo digitada na janela ilustrativa
   const digita = document.getElementById('digita');
   const frase = 'Pronto! Criei a seção de contato com um formulário. Quer que eu explique cada parte?';
   if (semMovimento) {

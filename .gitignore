@@ -1,4 +1,4 @@
-# Arquivos que o git deve ignorar (criado pelo Faísca)
+# Arquivos que o git deve ignorar (criado pelo Argos)
 node_modules/
 .agent_backups/
 .env
